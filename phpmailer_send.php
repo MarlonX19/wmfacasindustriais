@@ -56,10 +56,19 @@
 
     //Verifies whether the mail went throught or not
     if($mail->send()){
-     echo '<script>alert("Mensagem Enviada com sucesso!")</script>';
-      header("location: index.php");
-    } else {
-     echo "Erro no envio";
+     
+            ?> 
+            <script>alert('<?PHP echo "Dados enviados com sucesso!"; ?>'); </script>
+
+                      <?PHP
+                      echo "<script>window.location = 'index.php';</script>"; 
+
+
+    } else { ?> 
+            <script>alert('<?PHP echo "Erro ao enviar mensagem, tente novamente!"; ?>'); </script>
+
+                      <?PHP
+                      echo "<script>window.location = 'index.php';</script>"; 
     }
 
 

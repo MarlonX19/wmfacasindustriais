@@ -10,30 +10,27 @@
 	<head>
 		<meta charset="utf-8">
 		<title>WM FACAS INDUSTRIAIS</title>
-		<link rel="stylesheet" href="csss/bootstrap.min.css">
-		<link rel="icon" type="image/png" href="images/favicon.png" />
+	    <link rel="icon" type="image/png" href="images/favicon.png" />
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
-		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
-		<script src="js/jquery.min.js"></script>
-		<script src="js/skel.min.js"></script>
-		<script src="js/skel-layers.min.js"></script>
+	
+		<script src="js/jquery.min.js"></script> 
+	    <script src="js/skel.min.js"></script>  
+		<script src="js/skel-layers.min.js"></script> 
 		<script src="js/init.js"></script>
-		<script src="jss/jquery.min.js"></script>
-		<script src="jss/bootstrap.min.js"></script>
 
 		<noscript>
-			<link rel="stylesheet" href="css/skel.css" />
-			<link rel="stylesheet" href="css/style.css" />
-			<link rel="stylesheet" href="css/style-xlarge.css" />
+		<!--	<link rel="stylesheet" href="css/skel.css" /> 
+			<link rel="stylesheet" href="css/style.css" />  
+			<link rel="stylesheet" href="css/style-xlarge.css" />  -->
 		</noscript>
 	</head>
 	<body class="landing">
 
 		<!-- Header -->
 			<header id="header">
-				<h1><a href="index.html">WM Facas Industriais</a></h1>
+				<h1><a href="index.php">WM Facas Industriais</a></h1>
 				<nav id="nav">
 					<ul>
 						<li><a href="index.php">Home</a></li>
@@ -53,7 +50,7 @@
 				<p>Serviço especializado em afiação de facas industriais.</p>
 				<ul class="actions">
 					<li>
-						<a href="#"  class="btn btn-primary btn-lg">Contate-nos</a>
+						<a href="#"  class="button big">Contate-nos</a>
 					</li>
 				</ul>
 			</section>

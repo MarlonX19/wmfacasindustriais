@@ -163,6 +163,12 @@
 
 	section.special, article.special {
 		text-align: center;
+
+	}
+
+	div.contactphoto {
+		background-image: url("../../images/contactphoto.jpg");
+	
 	}
 
 	header p {
@@ -929,6 +935,7 @@
 		}
 
 /* Header */
+
 
 	body.landing #header {
 		background-color: transparent;
